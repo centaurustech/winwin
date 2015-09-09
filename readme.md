@@ -1,27 +1,23 @@
-## Laravel PHP Framework
+## WinWin
+### Crowfunding para Organizaciones que Apoyan a Personas con Discapacidad
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](http://www.yafun.cl)
+[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](http://www.yafun.cl)
+[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](http://www.yafun.cl)
+[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](http://www.yafun.cl)
+[![License](https://img.shields.io/badge/licence-GNU%20GPL%20v3-green.svg)](http://www.yafun.cl)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+sistema de procura de asociaciones/organizaciones relacionadas a personas con discapacidad. plataforma inteligente de crowdfunding / crowdinvesting. tienda virtual para las organizaciones para personas con discapacidad. status y info detalladas de los proyectos en andamento, como ROI (return on investiment) y tasa de interés sobre préstamo. estatísticas variadas sobre las organizaciones, como
+constantes implementaciones / mejoras
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Contribuir
 
-## Official Documentation
+Si quieren contribuir por favor ponerse en contacto con el equipo de yafun.cl en winwin[arroba]yafun.cl
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+## Vulnerabilidades de Seguridad
 
-## Contributing
+Si encuentras una vulnerabilidad de seguridad favor informar a winwin[arroba]yafun.cl
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+### Licencia
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Winwin es un proyecto opensource bajo licencia GNU GPL v3
