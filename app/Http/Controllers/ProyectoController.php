@@ -78,6 +78,13 @@ class ProyectoController extends Controller
      */
     public function edit(Proyecto $proyecto, FormBuilder $formBuilder)
     {
+        // Cadena de texto a buscar en Google
+        $query = 'styde.net';
+        $url = "http://www.latercera.cl";
+        $body = file_get_contents($url);
+        //imprimimos en pantalla el objeto
+        dd($body);
+
         return 'Acá se muestra la vista para editar un proyecto';
     }
 

@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row text-center">
 			<div class="col-md-10 col-md-offset-1">
-				<h1><strong>Descripción</strong></h1>
+				<h1><strong>¿Cómo funciona?</strong></h1>
 				<hr>
 				<div class="row">
 					<div class="col-sm-4">
@@ -11,9 +11,9 @@
 							<i class="fa fa-group fa-stack-1x text-white"></i>
 						</span>
 						<h4>
-                            <strong>Descripción 1</strong>
+                            <strong>Encuentra una Iniciativa</strong>
                         </h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>Navega en busca de aquella iniciativa con la que haces resonancia.</p>
 					</div>
 					<div class="col-sm-4">
 						<span class="fa-stack fa-4x">
@@ -21,9 +21,9 @@
 							<i class="fa fa-heart fa-stack-1x text-white"></i>
 						</span>
 						<h4>
-                            <strong>Descripción 2</strong>
+                            <strong>Tiene sentido para ti?</strong>
                         </h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>Esperamos que encuentres una iniciativa que tenga pleno sentido para ti.</p>
 					</div>
 					<div class="col-sm-4">
 						<span class="fa-stack fa-4x">
@@ -31,9 +31,9 @@
 							<i class="fa fa-money fa-stack-1x text-white"></i>
 						</span>
 						<h4>
-                            <strong>Descripción 3</strong>
+                            <strong>Haz un prestamo</strong>
                         </h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>Haz tu prestamo para que la iniciativa elegida se pueda llevar a cabo.</p>
 					</div>
 				</div>
 			</div>

@@ -3,9 +3,15 @@
 $brand-primary: #00aeef;
 $gray-light: #a1a1a1;
 
+
 body
 {
 	margin: 0;
+}
+
+html, body
+{
+	height: 100%;
 }
 
 .text-primary
@@ -97,13 +103,13 @@ body
 
 .footer
 {
-	bottom: 0px;
+	bottom: 0;
+	// position: absolute;
 	width: 100%;
-	// margin-top: 0.5em;
+	background-color: white;
 	color: $brand-primary;
 	font-size: 1em;
 	padding: 1.5em;
-	float: none;
 	border-top: 1px solid $brand-primary;
 	p
 	{
@@ -119,6 +125,22 @@ body
 	}
 
 }
+
+.list-ini
+{
+	min-height: 100%;
+	background-color: $brand-primary;
+	color: $brand-primary;
+	margin: -1.5em -1em 0 -1em;
+	padding: 8em 2em 4em;
+	text-align: center;
+	hr
+	{
+		border-color: $brand-primary;
+		width: 44%
+	}
+}
+
 // LANDING PAGE
 // MIXIN
 
@@ -158,3 +180,5 @@ body
         }
     }
 }
+
+

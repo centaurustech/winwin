@@ -4,13 +4,13 @@
 		<hr>
 		<div class="row">
 			<div class="col-md-3">
-				<h4>Categorías</h4>
+				<h4>Categorías <i class="fa fa-tag"></i></h4>
 				<div class="list-group text-primary">
-					<button type="button" class="list-group-item">Cras justo odio</button>
-					<button type="button" class="list-group-item">Dapibus ac facilisis in</button>
-					<button type="button" class="list-group-item">Morbi leo risus</button>
-					<button type="button" class="list-group-item">Porta ac consectetur ac</button>
-					<button type="button" class="list-group-item">Vestibulum at eros</button>
+					<button type="button" class="list-group-item">Familia</button>
+					<button type="button" class="list-group-item">Emprendimientos</button>
+					<button type="button" class="list-group-item">Proyectos</button>
+					<button type="button" class="list-group-item">Desarrollo</button>
+					<button type="button" class="list-group-item">Comunidad</button>
 				</div>
 			</div>
 			<div class="col-md-9">

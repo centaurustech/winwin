@@ -29,7 +29,7 @@
 										<br>
 									</div>
 									<div class="panel-body text-primary text-left">
-										<h1>$50.000<small>clp/$62.500clp</small></h1>
+										<h1>$50.000<small>clp /$62.500clp</small></h1>
 										<div class="progress">
 											<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
 											</div>
@@ -44,8 +44,8 @@
 										<h2 class="panel-title">Descripción</h2>
 									</div>
 									<div class="panel-body text-primary text-left">
-										<p class="lead">Lorem ipsum dolor sit amet.</p>
-										<p>Nesciunt saepe consectetur voluptatem dolor distinctio eos temporibus! Distinctio dolorum maxime, magni itaque nemo enim ut, ab, illum, earum quia molestiae accusantium! ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus tempore odio repellendus accusamus ducimus quod modi quis veniam, quasi voluptas aut ex nemo pariatur esse optio incidunt non iure deleniti.</p>
+										<p class="lead">Queremos celebrar nuestros cumpleaños</p>
+										<p>Estamos en busca de fondos para poder celebrar a todos quienes participen de nuestros talleres y que estén de cumpleaños entre los meses de Julio y Diciembre del 2015! <br> Necesitamos juntar $62.500 para poder tener una fiesta con regalos que haremos nosotros mismos duran el mes de Octubre.</p>
 									</div>
 								</div>
 							</div>

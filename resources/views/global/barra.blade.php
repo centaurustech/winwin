@@ -15,6 +15,18 @@
         <div class="collapse navbar-collapse margin-top-05" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right menu nav-color">
                 <li>
+                    <a class="page-scroll" href="#page-top">Inicio</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#1">Cómo</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#2">Destacados</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#3">Partners</a>
+                </li>
+                <li>
                 @unless(auth()->user())
                     <a class="page-scroll" href="{{ url('auth/register') }}">Registrar</a>
                 </li>
@@ -32,21 +44,9 @@
                 <li>
                     <a class="page-scroll" href="{{ url('proyectos') }}">Lista de Iniciativas</a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="#page-top">Inicio</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#1">Menú 1</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#2">Menú 2</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#3">Menú 3</a>
-                </li>
-                <li>
+                {{-- <li>
                     <a class="page-scroll" href="#4">Menú 4</a>
-                </li>
+                </li> --}}
             </ul>
         </div>
         <!-- /.navbar-collapse -->

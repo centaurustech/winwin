@@ -5994,6 +5994,9 @@ button.close {
 body {
   margin: 0; }
 
+html, body {
+  height: 100%; }
+
 .text-primary {
   color: #00aeef; }
 
@@ -6059,12 +6062,12 @@ hr {
   box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.2); }
 
 .footer {
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
+  background-color: white;
   color: #00aeef;
   font-size: 1em;
   padding: 1.5em;
-  float: none;
   border-top: 1px solid #00aeef; }
   .footer
 p {
@@ -6075,6 +6078,18 @@ a {
     .footer
 a:hover {
       color: #0094cb; }
+
+.list-ini {
+  min-height: 100%;
+  background-color: #00aeef;
+  color: #00aeef;
+  margin: -1.5em -1em 0 -1em;
+  padding: 8em 2em 4em;
+  text-align: center; }
+  .list-ini
+hr {
+    border-color: #00aeef;
+    width: 44%; }
 
 .header {
   height: 100vh;
