@@ -1,0 +1,160 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$brand-primary: #00aeef;
+$gray-light: #a1a1a1;
+
+body
+{
+	margin: 0;
+}
+
+.text-primary
+{
+	color: $brand-primary;
+}
+
+.text-white
+{
+	color: white;
+}
+
+.landing
+{
+	color: white;
+	background-color: $brand-primary;
+	text-align: center;
+	display: block;
+	height: 100vh;
+	margin: -1.5em -1em 0 -1em;
+	img
+	{
+		padding-top: 20%;
+	}
+}
+
+.descripcion
+{
+	color: $brand-primary;
+	padding: 2em 0;
+	margin-bottom: 2em;
+	text-align:center;
+	hr
+	{
+		border-color: $brand-primary;
+		width: 33%;
+	}
+}
+
+.destacados
+{
+	background-color: $brand-primary;
+	color: white;
+	margin: -1.5em -1em 0 -1em;
+	padding: 2em;
+	padding-bottom: 4em;
+	text-align: center;
+	hr
+	{
+		border-color: white;
+		width: 44%
+	}
+}
+
+.ingreso
+{
+	background-color: $brand-primary;
+	color: white;
+	margin: -1.5em -1em 0 -1em;
+	padding: 8em 2em 4em;
+	text-align: center;
+	hr
+	{
+		border-color: $brand-primary;
+		width: 44%
+	}
+}
+
+.iniciativa
+{
+	background-color: $brand-primary;
+	color: $brand-primary;
+	margin: -1.5em -1em 0 -1em;
+	padding: 8em 2em 4em;
+	text-align: center;
+	hr
+	{
+		border-color: $brand-primary;
+		width: 44%
+	}
+}
+
+.shadow
+{
+	box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+// Footer
+
+.footer
+{
+	bottom: 0px;
+	width: 100%;
+	// margin-top: 0.5em;
+	color: $brand-primary;
+	font-size: 1em;
+	padding: 1.5em;
+	float: none;
+	border-top: 1px solid $brand-primary;
+	p
+	{
+		font-size: 1.1em;
+	}
+	a
+	{
+		color: $brand-primary;
+		&:hover
+		{
+			color: darken($brand-primary, 7%);
+		}
+	}
+
+}
+// LANDING PAGE
+// MIXIN
+
+@mixin background-cover {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+.header
+{
+	height: 100vh;
+    // padding-top: @nav-height / 4;
+	// margin: 0 -2em;
+	background-position: center;
+    background-image: url(/img/portada-4.jpg);
+    @include background-cover;
+    text-align: center;
+    color: white;
+    // margin: -1.5em -1em -1em -1em;
+	img
+	{
+		padding-top: 16em;
+	}
+}
+
+@media(min-width:768px) 
+{
+    .header {
+        min-height: 100%;
+        img
+        {
+        	padding-top: 33em;
+        }
+    }
+}
